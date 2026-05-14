@@ -1,0 +1,13 @@
+[project]
+name = "smart-traffic-control"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "opencv-python>=4.13.0.92",
+    "pandas>=3.0.2",
+    "streamlit>=1.57.0",
+    "torch>=2.11.0",
+]

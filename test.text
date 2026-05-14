@@ -1,0 +1,11 @@
+git config --global user.name Ravi92535
+git config --global user.email ravi08gotan@gmail.com
+
+
+rm -rf .git
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/Ravi92535/Smart-Traffic-Control.git
+git push -f origin main
